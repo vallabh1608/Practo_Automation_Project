@@ -1,0 +1,11 @@
+<suite name="Suite" >
+<listeners>  
+    <listener class-name="com.practo.utils.ExtentReportManager"/>
+    <listener class-name="utilities.RetryTransformer"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.practo.PractoTests"/>
+    </classes>
+  </test>
+</suite>
